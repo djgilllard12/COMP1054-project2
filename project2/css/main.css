@@ -25,7 +25,6 @@ ul {
 	border-radius: 3px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	padding: 20px 0;
 	margin-bottom: 0;
 }
 li:first-child{
@@ -34,7 +33,10 @@ li:first-child{
 li{
 	display: inline-block;
 	font-size: 20px;
-	padding-right: 3.5%;
+	padding: 2%;
+}
+li:hover{
+	background-color: white;
 }
 /*search bar*/
 header > input{
@@ -42,6 +44,8 @@ header > input{
 	height: 32px;
 	border-radius: 5px;
 	padding-left: 20px;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 header img:nth-child(3) {
 	width: 28px;
@@ -54,13 +58,13 @@ header > img:nth-child(5), header > img:nth-child(6){
 }
 header > img:nth-child(5) {
 	margin-left: 90%;
+}
+header > img:nth-child(5), header > img:nth-child(6){
 	position: absolute;
-	margin-top: -58px;
+	margin-top: -62px;
 }
 header > img:nth-child(6) {
 	margin-left: 95%;
-	position: absolute;
-	margin-top: -58px;
 }
 /*Main*/
 main > img:first-child {
@@ -73,6 +77,10 @@ article {
 	margin: 0 34%;
 	margin-top: -23%;
 	position: relative;
+}
+em{
+	font-weight: bold;
+	color: #000066;
 }
 article p:nth-child(7) {
 	font-size: 13px;
@@ -90,6 +98,9 @@ aside img{
 }
 #reviews{
 	margin-left: 20px;
+}
+aside div{
+	padding-bottom: 10px;
 }
 /*section*/
 section{
